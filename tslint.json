@@ -1,0 +1,3 @@
+{
+  "extends": ["@valudio/tslint-rules"]
+}

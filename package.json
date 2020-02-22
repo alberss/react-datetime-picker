@@ -35,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@valudio/tslint-rules": "0.0.9",
+    "tslint": "^6.0.0",
+    "tslint-react": "^4.2.0"
   }
 }
