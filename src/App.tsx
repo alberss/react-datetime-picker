@@ -1,7 +1,10 @@
 import React from 'react'
 import './App.css'
+import DateTime from './components/DateTime'
 import logo from './logo.svg'
 
+// tslint:disable: jsx-no-lambda
+// tslint:disable: no-console
 function App() {
   return (
     <div className="App">
@@ -18,6 +21,9 @@ function App() {
         >
           Learn React
         </a>
+        <DateTime
+          onChange={ value => console.log(value) }
+        />
       </header>
     </div>
   )
